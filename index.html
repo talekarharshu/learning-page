@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+        </style>
+</head>
+<body>
+   <section>
+        <div class="left">
+            <h1>Python Roadmap</h1>
+            <ul>
+                <li><a href="#intro">Python Introduction</a></li>
+                <li><a href="#var">Python Variables</a></li>
+                <li><a href="#data">Python Data Types</a></li>
+                <li><a href="#num">Python Numbers</a></li>
+                <li><a href="string">Python Strings</a></li>
+                <li><a href="#operators">Python Operators</a></li>
+                <li><a href="#lists">Python Lists</a></li>
+                <li><a href="#tuple">Python Tuples</a></li>
+                <li><a href="#set">Python Sets</a></li>
+                <li><a href="#dict">Python Dictionaries</a></li>
+                <li><a href="#loop"> Loops</a></li>
+                <li><a href="#while">Python While Loops</a></li>
+                <li><a href="#do">Python Do While Loops</a></li>
+                <li><a href="#for">Python For Loops</a></li>
+                <li><a href="#if">Python If Else Condition</a></li>
+                <li><a href="#func">Python Functions</a></li>
+                <li><a href="#array">Python Arrays</a></li>
+                <li><a href="#obj">Python Classes and Objects</a></li>
+                <li><a href="#inheritance">Python Inheritance</a></li>
+                <li><a href="#polymorphism">Python Polymorphism</a></li>
+                <li><a href="#abstraction">Python Abstraction</a></li>
+                <li><a href="#module">Python Modules</a></li>
+                <li><a href="#date">Python Datetime</a></li>
+                <li><a href="#iterate">Python Iterators</a></li>
+                <li><a href="#course">Python Full Course</a></li>
+                <li><a href="#que">Python Interview Questions</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <h1 id="intro">Python Introduction</h1>
+            <center>
+                <img id="img1" src="https://rodo.guluarte.com/post/python-radmap.png" alt="Python Roadmap">
+            </center>
+            <p>Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. Created by Guido van Rossum and first released in 1991, Python has become one of the most popular programming languages due to its easy-to-learn syntax and extensive libraries. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming, making it suitable for a wide range of applications such as web development, data science, artificial intelligence, automation, and more. Python's dynamic typing, automatic memory management, and strong community support further enhance its usability and efficiency. With frameworks like Django for web development and libraries like NumPy and TensorFlow for scientific computing and machine learning, Python continues to be a preferred choice for beginners and professionals alike.</p>
+            <br>
+            
+            <h1 id="var">Python Variables</h1>
+            <center>
+                <img class="img2" src="https://images.theengineeringprojects.com/image/main/2022/03/Python-Variables-and-Data-Types-scaled.jpg" alt="">
+            </center>
+           
+            <p>In Python, variables are used to store data values, and they do not require explicit declaration of type, as Python is dynamically typed. A variable is created the moment a value is assigned to it, and its type is determined automatically based on the assigned data. Python variable names must begin with a letter or an underscore and can only contain letters, numbers, and underscores. They are case-sensitive, meaning name and Name would be considered different variables. Python also allows multiple assignments, where multiple variables can be assigned values in a single line. Additionally, variables can change their data type during execution, providing flexibility in programming. With its simple syntax and dynamic nature, Python makes handling variables easy and efficient for developers.</p>
+            <h1 id="data">Python Data Types</h1>
+            <p>Python data types define the kind of values that variables can hold, allowing efficient storage and manipulation of data. Since Python is dynamically typed, variables do not require explicit type declarations; their types are determined automatically based on assigned values. The primary data types in Python include integers for whole numbers, floats for decimal values, strings for textual data, and booleans for representing True or False values. Additionally, Python offers complex data types such as lists, tuples, sets, and dictionaries, which store multiple values in structured formats. Understanding data types is essential for writing efficient programs, as they influence operations, memory usage, and performance. Python's flexibility in handling data types makes it a powerful language for a wide range of applications.</p>
+            <h3>Data Types</h3>
+            <div class="types">
+                <li>Integer</li>
+                <li>Float</li>
+                <li>String</li>
+                <li>Boolean</li>
+                <li>List</li>
+                <li>Tuple</li>
+                <li>Set</li>
+                <li>Dictionery</li>
+            </div>
+            <h1 id="num">Python Numbers</h1>
+            <center>
+                <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsry1AxANu7x8zZMk0v68QITqbVNa2GKuasw&s" alt="">
+            </center>
+            <p>In Python, numbers are categorized into three main types: integers (int), floating-point numbers (float), and complex numbers (complex). Integers include whole numbers, both positive and negative, without any decimal points, such as 10 or -5. Floating-point numbers, like 3.14 or -0.001, contain decimals and are used for precise calculations. Complex numbers, represented as a + bj, include a real and an imaginary part, making them useful for scientific computations. Python provides various mathematical operations and built-in functions like abs(), pow(), and round() to manipulate numbers efficiently. Additionally, the math and random modules offer advanced functionalities for calculations and random number generation. Python automatically assigns the appropriate type to a number based on its value, and type conversion can be done using int(), float(), or complex() functions.</p>
+
+            <h1 id="string">Python Strings</h1>
+            <center>
+                <img class="img2" src="https://techvidvan.com/tutorials/wp-content/uploads/2019/12/python-strings.jpg" alt="">
+            </center>
+            <p>In Python, strings are sequences of characters enclosed within either single quotes ('), double quotes ("), or triple quotes (''' or """) for multi-line strings. Strings are immutable, meaning their contents cannot be changed after creation, but various operations can be performed on them. Python provides a rich set of string manipulation features, including slicing (s[1:5]), concatenation ("Hello" + " World"), and repetition ("Ha" * 3). Strings support built-in methods like lower(), upper(), strip(), replace(), and split() to modify and format text efficiently. The len() function returns the length of a string, while indexing (s[0]) and negative indexing (s[-1]) allow access to specific characters. Python also supports formatted strings, such as f-strings (f"Hello {name}"), which make string interpolation easier. Escape sequences like \n for newline and \t for tab enhance readability and formatting. The in operator helps in checking substring existence ("Py" in "Python"), and the join() and format() methods offer flexible ways to manipulate text. Unicode support allows Python strings to handle international characters smoothly, making it highly versatile for text processing.</p>
+
+            <h1 id="operators">Python Operators</h1>
+            <center>                
+                <img class="img2" src="https://dotnettrickscloud.blob.core.windows.net/img/python/2820230302005431.webp" alt="">
+            </center>
+            <p>In Python, operators are special symbols used to perform operations on variables and values. They are categorized into several types: arithmetic operators (+, -, *, /, //, %, **) for mathematical calculations, comparison operators (==, !=, >, <, >=, <=) for comparing values, and logical operators (and, or, not) for evaluating Boolean expressions. Python also has bitwise operators (&, |, ^, ~, <<, >>) for performing bit-level operations and assignment operators (=, +=, -=, *=, /=, //=, %=, **=, &=, |=, ^=, >>=, <<=) to assign and modify values in a single step. Identity operators (is, is not) check if two variables refer to the same memory location, while membership operators (in, not in) test whether a value exists within a sequence like a list or string. Operators can be used with different data types, and Python allows operator overloading, meaning built-in operators can be redefined for custom objects. Parentheses help in controlling precedence, and short-circuiting in logical operations enhances efficiency. Python’s versatile operator support makes it powerful for mathematical, logical, and data manipulation tasks.</p>
+
+            <h3>Types of Operators</h3>
+            <div class="types">
+                <li>Arithmetic Operators</li>
+                <li>Comparison Operators</li>
+                <li>Logical Operators</li>
+                <li>Bitwise Operators</li>
+                <li>Membership Operators</li>
+                <li>Identity Operators</li>
+                <li>Assignment Operators</li>
+                <li>Dictionery</li>
+            </div>
+
+            <h1 id="lists">Python Lists</h1>
+            <center>
+                <img class="img2" src="https://pynative.com/wp-content/uploads/2021/03/python-list.jpg" alt="">
+            </center>
+            <p>In Python, a list is a versatile and ordered collection of items that can store elements of different data types, including numbers, strings, and even other lists. Lists are defined using square brackets ([]), with elements separated by commas, such as my_list = [1, 2, "hello", 3.5]. They are mutable, meaning elements can be modified, added, or removed. Python provides various built-in methods for list manipulation, including append(), extend(), insert() for adding elements, remove(), pop(), clear() for deleting elements, and sort(), reverse() for organizing data. List slicing (my_list[1:4]) allows accessing specific portions, and list comprehension ([x**2 for x in range(5)]) makes list creation more efficient. Lists support iteration, indexing, and multiple built-in functions like len(), min(), and max(), making them essential for data handling and programming in Python.</p>
+
+            <h1 id="tuple">Python Tuple</h1>
+            <p>In Python, a tuple is an ordered, immutable collection of elements, meaning its values cannot be changed after creation. Tuples are defined using parentheses (()), with elements separated by commas, such as my_tuple = (1, 2, "hello", 3.5). Since tuples are immutable, they offer better performance and memory efficiency compared to lists. Elements in a tuple can be accessed using indexing (my_tuple[1]) and slicing (my_tuple[1:3]). Common built-in methods include count() (to count occurrences of an element) and index() (to find the position of an element). Tuples support iteration, unpacking (a, b, c = (1, 2, 3)), and can be used as dictionary keys due to their immutability. They are useful when working with fixed collections of data, such as coordinates or database records.</p>
+
+            <h1 id="set">Python Sets</h1>
+            <p>In Python, a set is an unordered, mutable collection of unique elements, meaning it does not allow duplicates. Sets are defined using curly braces ({}) or the set() function, such as my_set = {1, 2, 3, 4}. Since sets are unordered, they do not support indexing or slicing. However, they provide fast operations like union (|), intersection (&), difference (-), and symmetric difference (^), making them useful for mathematical set operations. Common methods include add(), remove(), discard(), pop(), and clear(). Sets are particularly helpful for removing duplicates from lists and checking membership efficiently using the in operator. Python also has frozen sets, which are immutable versions of sets, created using frozenset().</p>
+
+            <h1 id="dict">Python Dictionaries</h1>
+            <p>In Python, a dictionary is an unordered, mutable collection that stores data in key-value pairs. It is defined using curly braces ({}) with keys and values separated by colons, such as my_dict = {"name": "Alice", "age": 25, "city": "New York"}. Keys in a dictionary must be unique and immutable (e.g., strings, numbers, or tuples), while values can be of any data type. Dictionaries support efficient data retrieval and modification, making them useful for structured data storage. Common methods include get() (to retrieve values safely), keys(), values(), items() (to access dictionary elements), update() (to merge dictionaries), and pop() (to remove a key-value pair). They are widely used in scenarios requiring fast lookups, such as databases, API responses, and configuration settings.</p>
+
+            <h1 id="loop">Python Loops</h1>
+            <center>
+                <img class="img2" src="https://python-tricks.com/wp-content/uploads/2019/07/Loops-in-Python-2.jpg" alt="">
+            </center>
+            <p>In Python, loops are used to execute a block of code multiple times. Python provides two main types of loops: for loop and while loop. The for loop iterates over sequences like lists, tuples, dictionaries, and strings, such as for x in range(5): print(x). The while loop runs as long as a given condition is True, for example, while count < 5: count += 1. Both loops can be controlled using break (to exit the loop), continue (to skip the current iteration), and pass (a placeholder for future code). Nested loops allow loops within loops, and the else clause in loops executes when the loop completes normally without a break. Loops are essential for automating repetitive tasks and handling large datasets efficiently.</p>
+
+            <h1 id="while">While Loop</h1>
+            <p>In Python, a while loop is used to execute a block of code repeatedly as long as a specified condition is True. The loop checks the condition before each iteration and stops when the condition becomes False. A counter variable is often used and updated within the loop to avoid infinite loops. The break statement can be used to exit the loop prematurely, while continue skips the current iteration and moves to the next cycle. A while loop can also have an else block, which runs if the loop completes normally without a break. while loops are useful when the number of iterations is unknown and depends on a condition, such as reading user input or waiting for a specific event.</p>
+
+            <h1 id="do">Do While Loop</h1>
+            <p>Python does not have a built-in do-while loop like some other programming languages, but its behavior can be simulated using a while loop. In a do-while loop, the block of code executes at least once, regardless of the condition, and then continues running as long as the condition remains True. This can be mimicked in Python using a while loop with a break condition inside, such as:</p>
+            <pre>while True:  
+                # Code to execute  
+                if condition:  
+                    break  
+            </pre>
+            <p>This ensures the loop runs at least once before checking the condition. The do-while logic is useful in cases like taking user input where at least one iteration is required before evaluating a condition.</p>
+
+            <h1 id="for">For Loop</h1>
+            <p>In Python, a for loop is used to iterate over sequences like lists, tuples, strings, dictionaries, and ranges. It executes a block of code for each element in the sequence. The syntax is:</p>
+            <pre>for item in sequence:  
+                # Code to execute  
+            </pre>
+            <p>The range() function is commonly used with for loops to generate a sequence of numbers, such as for i in range(5): print(i). The loop can be controlled using break (to exit the loop early) and continue (to skip the current iteration). Nested for loops allow looping within loops, and an optional else block executes when the loop completes normally. for loops are widely used for iterating through data structures, automating repetitive tasks, and processing large datasets efficiently.</p>
+            <center>
+                <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/fIYVzKp0q5w?si=LvfZY4MVaa7fHRhe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+
+            <h1 id="if">If Else Condition</h1>
+            <p>In Python, if-else statements are used for decision-making by executing different blocks of code based on conditions. The if statement checks a condition, and if it evaluates to True, the corresponding code block runs. If the condition is False, the else block (if present) executes. The elif (else if) statement allows multiple conditions to be checked sequentially. The syntax is:</p>
+            <pre>if condition:  
+        # Code to execute if condition is True  
+             elif another_condition:  
+        # Code to execute if another_condition is True  
+              else:  
+         # Code to execute if all conditions are False  
+ 
+            </pre>
+    <p>Python supports nested if statements, where one if is inside another, for complex decision-making. Logical operators (and, or, not) can be used to combine conditions. These statements are fundamental for controlling program flow and handling various scenarios dynamically.</p>
+
+    <h1 id="func">Python Functions</h1>
+    <center>
+        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/dyvxxJSGUsE?si=w-lMyQpd4X1J4JIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+    <p>In Python, a function is a reusable block of code that performs a specific task, making programs more modular, readable, and efficient. Functions help in avoiding code repetition and organizing logic in a structured way. They are defined using the def keyword, followed by a function name, parentheses (), and a colon :. The function body is indented, and an optional return statement is used to send back a result. The basic syntax is:</p>
+    <pre>def function_name(parameters):  
+        # Function body  
+        return result  # (optional)  
+    </pre>
+    <p>Functions can take parameters (arguments) to accept input values, which can be either positional (based on order) or keyword arguments (specified by name). Python also allows default parameters, where a function parameter can have a predefined value if no argument is passed. Additionally, *args is used for passing a variable number of positional arguments, while **kwargs allows passing a variable number of keyword arguments.</p>
+    <p>Python provides built-in functions like print(), len(), sum(), max(), and many others to perform common tasks. In addition to built-in functions, user-defined functions allow developers to create their own logic. Functions can also be nested (defined inside another function) and recursive (calling themselves), which is useful in problems like factorial calculations and tree traversals.</p>
+    <p>Functions in Python can be stored in modules (separate files) and imported using the import statement, which improves code reusability and maintainability. Python also supports lambda functions (anonymous functions) for writing short, one-line functions without using def. Using functions makes code more efficient, scalable, and easier to debug, making them a fundamental part of Python programming.</p>
+
+    <h1 id="array">Python Array</h1>
+    <center>
+        <img class="img2" src="https://cdn.educba.com/academy/wp-content/uploads/2023/07/Arrays-in-Python.jpg" alt="">
+    </center>
+    <p>In Python, an array is a data structure used to store multiple values of the same type in a single variable, allowing for more efficient storage and manipulation compared to lists. Unlike lists, which can hold elements of different data types, arrays are more memory-efficient when handling large amounts of numerical data, as they store elements in a compact manner. However, Python does not have a built-in array type like some other programming languages such as C or Java. Instead, Python provides the array module, which allows the creation of arrays with a specified data type using array.array(typecode, [elements]), where the typecode defines the type of values the array can store (e.g., 'i' for integers, 'f' for floating-point numbers). This ensures that all elements within the array maintain a uniform type, making operations on them faster and more optimized in terms of memory usage.</p>
+    <p>For more advanced numerical computations, Python developers prefer using NumPy arrays, which are provided by the numpy module. NumPy arrays (numpy.array) are much faster and more versatile than standard Python arrays and lists, as they support vectorized operations, broadcasting, and efficient mathematical computations. NumPy arrays can be multi-dimensional (ndarray), making them ideal for complex data structures like matrices and tensors used in scientific computing, data analysis, and machine learning. They provide extensive built-in functions for element-wise arithmetic operations, statistical computations, and linear algebra, significantly improving performance compared to traditional Python lists or the array module.</p>
+    <p>Arrays support various operations such as indexing (arr[0] to access the first element), slicing (arr[1:4] to extract a subset of elements), and iterating using loops. Common methods available for array manipulation include append() (to add an element), insert() (to insert an element at a specific position), remove() (to delete an element by value), pop() (to remove an element by index), and extend() (to merge arrays). In NumPy, additional functions like reshape(), flatten(), concatenate(), and split() enable advanced transformations.</p>
+    <p>When dealing with large datasets, arrays are significantly faster and more memory-efficient than lists because they store data in a continuous memory block, reducing overhead. This makes them particularly useful in applications requiring heavy numerical computation, such as data science, artificial intelligence, signal processing, and image recognition. While lists are preferred for general-purpose collections, arrays are ideal when performance and optimized memory usage are priorities, especially for handling large-scale numerical data efficiently.</p>
+
+    <h1 id="obj">Python Classes & Objects</h1>
+    <h3>Introduction to Classes and Objects in Python</h3>
+    <p>In Python, classes and objects are fundamental concepts of object-oriented programming (OOP), which helps in structuring code efficiently by encapsulating related data and functions into a single unit. A class is a blueprint or template for creating objects, defining properties (attributes) and behaviors (methods) that its objects will have. An object is an instance of a class, meaning it is a real-world entity that has its own unique state and behavior. This concept allows code to be modular, reusable, and easy to manage, making it a key feature in Python programming.</p>
+    <h3>Defining and Creating Objects</h3>
+    <p>A class in Python is defined using the class keyword, followed by a class name. Inside the class, attributes (variables) and methods (functions) are defined to describe the behavior of the objects. The special method __init__() is used as a constructor, which initializes an object’s attributes when it is created. To create an object (an instance of a class), we call the class as if it were a function, passing any required parameters. For example:</p>
+    <pre>class Car:  
+        def __init__(self, brand, model, year):  
+            self.brand = brand  
+            self.model = model  
+            self.year = year  
+    
+        def display_info(self):  
+            print(f"{self.brand} {self.model}, Year: {self.year}")  
+    
+    # Creating an object  
+    car1 = Car("Toyota", "Corolla", 2022)  
+    car1.display_info()  
+    </pre>
+    <p>Here, Car is a class, and car1 is an object created from this class. The display_info() method prints the car's details.</p>
+    <h3>Attributes and Methods in Classes</h3>
+    <p>Classes can have two types of attributes: instance attributes and class attributes. Instance attributes belong to individual objects and are defined inside the __init__() method using self, while class attributes are shared among all instances and are defined outside any methods within the class. Similarly, methods can be of three types: instance methods (which work on individual objects), class methods (which operate on class-level data), and static methods (which do not modify class or object attributes but are included for organizational purposes).</p>
+    <pre>class Example:  
+        class_variable = "I am a class attribute"  
+    
+        def __init__(self, value):  
+            self.instance_variable = value  
+    
+        @classmethod  
+        def class_method(cls):  
+            print(cls.class_variable)  
+    
+        @staticmethod  
+        def static_method():  
+            print("This is a static method.")  
+    </pre>
+    <p>Class methods use @classmethod and operate on the class itself using cls, while static methods use @staticmethod and do not depend on instance or class variables.</p>
+    <h3>Conclusion and Real-World Applications</h3>
+    <p>Using classes and objects in Python enables developers to structure complex programs efficiently. They allow for data encapsulation, abstraction, modularity, and code reusability, which are crucial for large-scale software development. Real-world applications of object-oriented programming include game development, web applications, GUI applications, machine learning models, and database management systems. Python’s simplicity in defining and using classes makes it a powerful tool for building maintainable and scalable applications. Understanding and mastering these concepts is essential for writing clean and efficient Python programs.</p>
+
+
+    <h1 id="inheritance">Inheritance In Python</h1>
+    <p>Inheritance is a core concept in Object-Oriented Programming (OOP) that allows a class (child class) to derive attributes and methods from another class (parent class). This helps in code reusability, modularity, and better organization, reducing redundancy in large programs. With inheritance, a child class can use the existing functionality of the parent class while also adding or modifying features as needed. This ensures that common functionality does not need to be rewritten, making programs more efficient and maintainable.</p>
+    <p>Python supports different types of inheritance, making it a flexible programming language for object-oriented development. In single inheritance, a child class inherits from only one parent class, which is the most straightforward form. Multiple inheritance allows a child class to inherit from more than one parent class, combining features from multiple sources. Multilevel inheritance creates a hierarchy where a child class inherits from another child class, forming a chain of inheritance. Hierarchical inheritance occurs when multiple child classes inherit from a single parent class, allowing the parent class to serve as a common base. Lastly, hybrid inheritance is a combination of multiple types of inheritance, which can be complex but useful in specific scenarios.</p>
+    <p>Inheritance also supports method overriding, where a child class provides a different implementation for a method already defined in the parent class. This is useful when a child class needs to modify or extend the behavior of an inherited method without changing the original code in the parent class. For example, a base class Vehicle may have a start() method, but subclasses like Car and Bike may override it to implement their specific starting mechanisms. Python also provides the super() function, which allows a child class to call methods from the parent class, making it easy to extend and modify behavior.</p>
+    <p>Another powerful feature of inheritance is access control, where attributes and methods can be defined as public, protected, or private using naming conventions. Public attributes and methods are accessible anywhere, while protected attributes (prefix _ before a variable name) suggest they should only be used within the class or its subclasses. Private attributes (prefix __ before a variable name) are meant to be accessed only within the defining class, preventing unintended modifications from outside. These access controls enhance data security and encapsulation, ensuring that class components are used appropriately.</p>
+    <p>Inheritance is widely used in real-world applications such as game development, GUI applications, machine learning, and database management systems. It helps in designing scalable, maintainable, and reusable code, reducing effort in large-scale software projects. By using inheritance effectively, developers can create flexible and efficient programs that are easy to extend and modify as requirements evolve.</p>
+    <h3>Types Of Inheritance</h3>
+    <div class="types">
+        <li>Single Inheritance</li>
+        <li>Multiple Inheritance</li>
+        <li>Multilevel Inheritance</li>
+        <li>Hierarchical Inheritance</li>
+        <li>Hybrid Inheritance</li>
+    </div>
+    <pre>class Animal:  
+        def speak(self):  
+            return "Animal makes a sound"  
+    
+    class Dog(Animal):  # Inheriting from Animal  
+        def speak(self):  
+            return "Dog barks"  
+    
+    dog = Dog()  
+    print(dog.speak())  # Output: Dog barks  
+    </pre>
+
+    <h1 id="polymorphism">Polimorphism In Python</h1>
+    <h3>Introduction to Python Polymorphism</h3>
+    <p>Polymorphism is one of the core concepts of Object-Oriented Programming (OOP) in Python. It refers to the ability of different objects to respond to the same function or method in different ways. The word "polymorphism" comes from Greek, meaning "many forms," which means the same method or function can be used on different data types or classes. This makes the code more flexible, reusable, and scalable, allowing developers to write generic code that works with multiple object types.</p>
+    <h3>Method Overriding in Polymorphism</h3>
+    <p>One of the key ways polymorphism is implemented in Python is through method overriding, which occurs when a child class provides a specific implementation of a method that is already defined in its parent class. This allows different classes to have the same method name but with different behaviors. </p>
+    <pre>class Animal:  
+        def speak(self):  
+            return "Animal makes a sound"  
+    
+    class Dog(Animal):  
+        def speak(self):  
+            return "Dog barks"  
+    
+    class Cat(Animal):  
+        def speak(self):  
+            return "Cat meows"  
+    
+    # Creating objects  
+    animals = [Dog(), Cat()]  
+    for animal in animals:  
+        print(animal.speak())  
+    </pre>
+    <p>Here, both Dog and Cat classes override the speak() method of the Animal class, demonstrating polymorphism by allowing different classes to have unique implementations of the same method.</p>
+    <h3>Method Overloading (Achieved Through Default Arguments)</h3>
+    <p>Python does not support method overloading (where multiple methods with the same name but different parameters exist in the same class), like some other languages. However, default arguments and *args can be used to mimic method overloading behavior.</p>
+    <pre>class Calculator:  
+        def add(self, a, b, c=0):  
+            return a + b + c  
+    
+    calc = Calculator()  
+    print(calc.add(2, 3))     # Output: 5  
+    print(calc.add(2, 3, 4))  # Output: 9  
+    </pre>
+    <p>Here, the add() method works with both two and three arguments, demonstrating a simple form of method overloading using default arguments.</p>
+    <h3>Polymorphism in Built-in Functions and Operators</h3>
+    <p>Polymorphism is also seen in built-in functions and operator overloading. Many Python functions, like len(), + (addition operator), and * (multiplication operator), exhibit polymorphic behavior by working with different data types.</p>
+    <pre>print(len("Hello"))      # Works on strings -> Output: 5  
+        print(len([1, 2, 3, 4]))  # Works on lists -> Output: 4  
+        
+        print(3 + 5)           # Works as addition for numbers -> Output: 8  
+        print("Hello" + "World")  # Works as concatenation for strings -> Output: HelloWorld  
+        </pre>
+        <p>Here, the len() function works for different data types, and the + operator behaves differently based on the type of operands, showcasing polymorphism in Python.</p>
+        <h3>Conclusion and Real-World Applications</h3>
+        <p>Polymorphism is an essential feature of Object-Oriented Programming (OOP) that allows Python developers to write flexible and scalable code. It enables different objects to share the same interface while performing different behaviors, making code more modular, reusable, and easier to maintain. Polymorphism is widely used in real-world applications such as game development, GUI applications, AI models, and framework design. Mastering polymorphism helps in designing robust and scalable software solutions.</p>
+
+        <h1 id="abstraction">Abstraction In Python</h1>
+        <p>Abstraction is one of the key principles of Object-Oriented Programming (OOP) in Python. It is the process of hiding complex implementation details from the user while exposing only the necessary functionalities. This helps in reducing code complexity and improving maintainability. Abstraction allows developers to focus on what an object does rather than how it does it.
+
+            In Python, abstraction is implemented using abstract classes and abstract methods, which are provided by the abc (Abstract Base Class) module. An abstract class is a class that cannot be instantiated and serves as a blueprint for other classes. It contains one or more abstract methods, which are methods declared but not implemented in the abstract class. The child classes must override these abstract methods to provide their own implementation.</p>
+
+            <pre>from abc import ABC, abstractmethod  
+
+        lass Vehicle(ABC):  
+            @abstractmethod  
+            def start(self):  
+            pass  # Abstract method without implementation  
+                
+       class Car(Vehicle):  
+            def start(self):  
+            print("Car engine starts with a key.")  
+                
+        class Bike(Vehicle):  
+            def start(self):  
+ print("Bike engine starts with a self-start button.")  
+                
+# car = Vehicle()  # This will raise an error as Vehicle is abstract  
+car = Car()  
+car.start()  # Output: Car engine starts with a key.  
+                </pre>
+                <p>In this example, the Vehicle class is an abstract class containing the abstract method start(), which is implemented differently in Car and Bike classes. This ensures that each subclass provides its own way of starting a vehicle while following a common structure.</p>
+                <p>Abstraction is widely used in frameworks, APIs, and large-scale applications where users interact with simplified interfaces while the actual implementation remains hidden.</p>
+
+                <h1 id="module">Python Modules</h1>
+                <p>A module in Python is a file that contains Python code, functions, classes, and variables, which can be reused in multiple programs. Modules help in organizing code, improving readability, and promoting code reusability by breaking large programs into smaller, manageable files. Python provides many built-in modules, such as math, random, os, and datetime, which offer ready-to-use functionalities. Additionally, users can create their own custom modules by writing Python code in a separate file and importing it using the import statement. A module can be imported in various ways, such as import module_name, from module_name import specific_function, or import module_name as alias for convenience. For example, import math allows access to mathematical functions like math.sqrt(25). If a module is not available by default, it can be installed using pip, Python's package manager, for external libraries like numpy, pandas, and requests. Modules enhance code modularity, reusability, and maintainability, making them essential for building scalable and efficient Python programs.</p>
+
+                <h1 id="date">Date Time In Python</h1>
+                <p>Python provides the datetime module to handle dates and times efficiently. This module allows developers to work with current date and time, format dates, perform date arithmetic, and manipulate time zones. The datetime.datetime.now() function returns the current date and time, while datetime.date.today() gives only the current date. Python also allows formatting and parsing dates using strftime() (to format dates as strings) and strptime() (to convert strings into date objects). The module supports date arithmetic, such as adding or subtracting days using timedelta. It also provides functionality to work with time zones using the pytz module. Example usage:</p>
+                <pre>from datetime import datetime, timedelta  
+
+         now = datetime.now()  
+        print("Current Date and Time:", now)  
+                    
+        future_date = now + timedelta(days=7)  
+        print("Date After 7 Days:", future_date)  
+                    </pre>
+                    <p>The datetime module is widely used in logging, scheduling, time-based automation, and data analysis, making it an essential tool for handling date and time operations in Python.</p>
+
+                    <h1 id="iterate">Python Iterators</h1>
+                    <p>An iterator in Python is an object that allows sequential access to elements in a collection (such as lists, tuples, or dictionaries) without exposing the underlying data structure. It follows the Iterator Protocol, which means it must implement two methods: __iter__() (which returns the iterator object itself) and __next__() (which returns the next element in the sequence). When there are no more elements, StopIteration is raised.
+                    In Python, objects like lists, tuples, dictionaries, and strings are iterable, meaning they can return an iterator using the iter() function. A common example of iteration is the for loop, which internally uses an iterator to traverse elements.</p>
+                    <h3>Example of an Iterator in Python:</h3>
+                    <pre>my_list = [1, 2, 3, 4]  
+                iterator = iter(my_list)  
+                        
+                print(next(iterator))  # Output: 1  
+                print(next(iterator))  # Output: 2  
+                        </pre>
+            <p>Here, iter(my_list) creates an iterator, and next(iterator) retrieves elements one by one.</p>
+                        <h3>Custom Iterator in Python:</h3>
+                        <pre>class Counter:  
+           def __init__(self, limit):  
+                  self.limit = limit  
+                     self.count = 0  
+                        
+            def __iter__(self):  
+                     return self  
+                        
+             def __next__(self):  
+                    if self.count < self.limit:  
+                     self.count += 1  
+                    return self.count  
+                    else:  
+                        raise StopIteration  
+                        
+            counter = Counter(5)  
+                for num in counter:  
+                 print(num)  # Output: 1 2 3 4 5  
+        </pre>
+
+        <h1 id="course">Full Python Course</h1>
+        <center>
+            <iframe class="vid"  src="https://www.youtube.com/embed/UrsmFxEIp5k?si=MEJE1EdYDPE4QpWN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
+
+        <h1 id="que">Python Interview Questions</h1>
+        <h3>Basic Python Questions</h3>
+        <ol><li>What is Python?</li>
+        <li>What are the key features of Python?</li>
+        <li>What is PEP 8?</li>
+        <li>How is Python interpreted?</li>
+        <li>What is the difference between a dynamically typed and statically typed language?</li>
+        <li>What are Python's built-in data types?</li>
+        <li>Explain the difference between mutable and immutable data types in Python.</li>
+        <li>What is the difference between a list and a tuple?</li>
+        <li>What are Python’s built-in collection types?</li>
+        <li>What is slicing in Python?</li></ol>
+
+        <h3>Python Operators and Expressions</h3>
+        <ol><li>What are Python’s arithmetic operators?</li>
+        <li>What is the difference between is and ==?</li>
+        <li>How does Python handle type conversion?</li>
+        <li>Explain the difference between and, or, and not operators</li>
+        <li>What are bitwise operators in Python?</li></ol>
+
+        <h3>Control Flow Statements</h3>
+        <ol><li>What is the difference between for and while loops?</li>
+        <li>How do you use the break, continue, and pass statements?</li>
+        <li>What is the else clause in loops?</li>
+        <li>What is the difference between if-elif-else and switch-case in other languages?</li>
+        <li>What is a nested loop?</li></ol>
+
+        <h3>Functions and Modules</h3>
+        <ol><li>How do you define a function in Python?</li>
+        <li>What is the difference between return and yield?</li>
+        <li>What are *args and **kwargs?</li>
+        <li>Explain recursion with an example.</li>
+        <li>What is the use of the lambda function?</li>
+        <li>What is the map() function in Python?</li>
+        <li>How does the filter() function work?</li>
+        <li>What is reduce() in Python?</li>
+        <li>How can you import a module in Python?</li>
+        <li>What is the purpose of __name__ == "__main__"?</li>
+    </ol>
+
+    <h3>Object-Oriented Programming (OOP) in Python</h3>
+    <ol>
+        <li>What is Object-Oriented Programming?</li>
+        <li>What are classes and objects?</li>
+        <li>Explain inheritance in Python.</li>
+        <li>What is polymorphism?</li>
+        <li>What is encapsulation?</li>
+        <li>What are instance, class, and static methods?</li>
+        <li>What is the difference between @staticmethod and @classmethod?</li>
+        <li>What is the super() function in Python?</li>
+        <li>What is multiple inheritance?</li>
+        <li>What is method overriding?</li>
+    </ol>
+
+    <h3>Exception Handling</h3>
+    <ol>
+        <li>What is exception handling in Python?</li>
+        <li>What is the difference between try-except and try-finally?</li>
+        <li>What are some common Python exceptions?</li>
+        <li>How do you raise an exception in Python?</li>
+        <li>What is a custom exception?</li>
+    </ol>
+
+    <h3>File Handling in Python</h3>
+    <ol>
+        <li>How do you open a file in Python?</li>
+        <li>What are the different modes to open a file?</li>
+        <li>How do you read/write a file in Python?</li>
+        <li>What is the difference between read() and readline()?</li>
+        <li>What is the with statement used for in file handling?</li>
+    </ol>
+    <h3>Python Data Structures</h3>
+    <ol>
+        <li>What is the difference between a list and a set?</li>
+        <li>What are dictionaries in Python?</li>
+        <li>What is the difference between pop() and remove() in lists?</li>
+        <li>How do you reverse a list in Python?</li>
+        <li>What are Python’s built-in methods for dictionaries?</li>
+        <li>How do you merge two dictionaries?</li>
+        <li>How do you check if a key exists in a dictionary?</li>
+        <li>What is the difference between append() and extend() in lists?</li>
+        <li>How do you sort a dictionary by values?</li>
+        <li>What is a deque in Python?</li>
+    </ol>
+
+    <h3>Regular Expressions (Regex)</h3>
+    <ol>
+        <li>What is the re module in Python?</li>
+        <li>How do you search for a pattern in a string using regex?</li>
+        <li>What is the difference between match() and search()?</li>
+        <li>How do you replace text using regex?</li>
+        <li>How do you split a string using regex?</li>
+    </ol>
+
+    <h3>Multithreading and Concurrency</h3>
+    <ol>
+        <li>What is multithreading in Python?</li>
+        <li>How does Python’s Global Interpreter Lock (GIL) work?</li>
+        <li>What is the difference between threading and multiprocessing?</li>
+        <li>How do you create a thread in Python?</li>
+        <li>What is the asyncio module used for?</li>
+    </ol>
+
+    <h3>Database Connectivity</h3>
+
+        <ol>
+            <li>How do you connect to a database in Python?</li>
+            <li>What is the sqlite3 module?</li>
+            <li>What is an ORM in Python?</li>
+            <li>How do you perform CRUD operations in Python with MySQL?</li>
+            <li>What is the cursor object in database connections?</li>
+        </ol>
+
+        <h3>Decorators and Generators</h3>
+        <ol>
+            <li>What is a decorator in Python?</li>
+            <li>How do you define and use a decorator?</li>
+            <li>What are generators in Python?</li>
+            <li>How does the yield statement work?</li>
+            <li>What is the advantage of using generators over lists?</li>
+        </ol>
+
+        <h3>Python Standard Libraries</h3>
+        <ol>
+            <li>What is the os module used for?</li>
+            <li>How do you get the current working directory in Python?</li>
+            <li>What is the sys module?</li>
+            <li>How do you parse command-line arguments in Python?</li>
+            <li>What is the shutil module used for?</li>
+        </ol>
+
+        <h3>Web Development with Python</h3>
+            <ol>
+                <li>What are Flask and Django?</li>
+                <li>What is the difference between Flask and Django?</li>
+                <li>How do you create a simple web server using Flask?</li>
+                <li>What is Jinja2 templating?</li>
+                <li>How do you handle sessions in Flask?</li>
+            </ol>
+
+            <h3>Machine Learning & Data Science in Python</h3>
+            <ol>
+                <li>What are NumPy and Pandas?</li>
+                <li>What is the difference between NumPy arrays and Python lists?</li>
+                <li>What are DataFrames in Pandas?</li>
+                <li>What is the difference between .loc[] and .iloc[] in Pandas?</li>
+                <li>How do you handle missing values in Pandas?</li>
+            </ol>
+
+            <h3>Miscellaneous Python Questions</h3>
+            <ol>
+                <li>What is a virtual environment in Python?</li>
+                <li>How do you install external packages in Python?</li>
+                <li>What is the difference between deepcopy() and copy()?</li>
+                <li>What are metaclasses in Python?</li>
+                <li>What is monkey patching in Python?</li>
+            </ol>
+
+            <center>
+                <img id="thanks" src="thank you.jpeg" alt="">
+            </center>
+
+       
+    
+        </div>
+
+    </section>
+</body>
+</html>
